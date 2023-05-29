@@ -1,0 +1,20 @@
+.columns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+.coulmn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    border-left: 1px dashed black;
+}
+.columnTitle {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}

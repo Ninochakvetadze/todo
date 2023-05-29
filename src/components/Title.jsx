@@ -1,7 +1,7 @@
 export function Title(props) {
     const { type, text, className } = props;
     return (
-        <div className="Title">
+        <div className="__title">
             {type === "h1" && <h1 className={className}>{text} </h1>}
             {type === "h2" && <h2 className={className}>{text}</h2>}
             {type === "h3" && <h3 className={className}>{text}</h3>}
